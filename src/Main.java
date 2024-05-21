@@ -5,7 +5,7 @@ public class Main {
         Paciente pedro = new Paciente();
 
 
-        CitaMedica citaMedica = new CitaMedica("11/05/2023", "10:30" ,pedro,"Dolor de cuello", Estado.REALIZADA);
+        CitaMedica citaMedica = new CitaMedica("11/05/2023", "10:30" ,"Dolor de cuello", Estado.REALIZADA);
         System.out.println(citaMedica);
 
 
