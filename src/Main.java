@@ -5,7 +5,7 @@ public class Main {
         Paciente pedro = new Paciente();
 
 
-        CitaMedica citaMedica = new CitaMedica("11/05/2023", "10:30" ,pedro,"Dolor de cabeza", Estado.REALIZADA);
+        CitaMedica citaMedica = new CitaMedica("11/05/2023", "10:30" ,pedro,"Dolor de cuello", Estado.REALIZADA);
         System.out.println(citaMedica);
 
 
@@ -19,6 +19,8 @@ public class Main {
             System.out.println(expedienteMedico.getDiagnostico());
             System.out.println(expedienteMedico.getTratamiento());
             System.out.println(expedienteMedico.getPrescripcion());
+
+            //hola
 
 
     }
