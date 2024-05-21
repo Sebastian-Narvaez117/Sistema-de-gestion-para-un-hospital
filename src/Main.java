@@ -20,6 +20,8 @@ public class Main {
             System.out.println(expedienteMedico.getTratamiento());
             System.out.println(expedienteMedico.getPrescripcion());
 
+            //hola
+
 
     }
 }
